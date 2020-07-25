@@ -1,0 +1,61 @@
+body{
+  background-image: url("body.jpg");
+    background-repeat: no-repeat;
+	height: 700px;
+	margin: 0px;
+}
+.container
+{
+	width:1000px;
+	margin: auto;
+   
+}
+.navbar { 
+border: 2px solid white ; 
+background-color: black;
+    color: ghostwhite;
+    text-align: center;
+    font-family: Forte;
+}
+
+.calculator{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    position: fixed;
+    width: 270px;
+     top:100px;
+    left: 550px;
+    padding: 10px;
+
+}
+div.result {
+width: 240px;
+background-color: rgba(0, 0, 0, .84);
+padding: 15px;
+    
+}
+
+#calcValue{
+ color:white;
+ font-size: 1.5rem;
+    height: 30px;
+}
+
+
+button {
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    outline: 0;
+    margin: 8px;
+    border: none;
+ 
+}
+#ButtonDelete , #ButtonClear{background-color: #ff5f40;}
+#ButtonDelete:hover , #ButtonClear:hover{background-color: lightgray;}
+.ButtonNumber ,.ButtonCurrency{ background-color: #6ebfb5;}
+.Buttonoperator ,#Buttondecimal,#zerobtn ,.ButtonEqual ,#shictoeur{background-color: #ffc7c7; }
+.Buttonoperator:hover,#Buttondecimal:hover,#zerobtn:hover,.ButtonEqual:hover,#shictoeur:hover{background-color: lightgray;}
+.ButtonNumber:hover ,.ButtonCurrency:hover{ background-color: lightgray;}
+
+
